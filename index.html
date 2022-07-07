@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom made template with bootstrap5</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/boxicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/transformations.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+
+    <!-- MAIN NAV -->
+    <nav class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class="bx bxs-envelope"></i>
+                        <span>amoto273@gmail.com</span>
+                    </p>
+                    <p>
+                        <i class="bx bxs-phone-call"></i>
+                        <span>(+234)-80-899-17983</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-links">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                        <a href="#"><i class="bx bxl-youtube"></i></a>
+                        <a href="#"><i class="bx bxl-github"></i></a>
+                        <a href="#"><i class="bx bxl-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">RINGLER <i class='bx bx-code-block'></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                </ul>
+                <a href="#" role="button" class="btn btn-brand text-white ms-lg-4" data-bs-toggle="modal"
+                    data-bs-target="#contactModal">Contact Us</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- IMAGE SLIDER -->
+    <div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+        <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 animate__animated animate__delay-1s animate__fadeInUp">
+                        <h5 class="text-uppercase text-white">Key to unlocking creative power</h5>
+                        <h1 class="text-uppercase display-2 my-3 text-white">Boosting self confidence <br> is one of our
+                            <br> indispensable priority
+                        </h1>
+                        <a href="#" class="btn btn-brand p-3">Start your journey here</a>
+                        <a href="#" class="btn btn-outline-light ms-md-4 p-3">Our Schedules</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5 class="text-uppercase text-white">Traits of a good programmer</h5>
+                        <h1 class="text-uppercase display-2 my-3 text-white">We first solve the problem<br> and then
+                            write the code
+                        </h1>
+                        <a href="#" class="btn btn-brand p-3">Start your journey here</a>
+                        <a href="#" class="btn btn-outline-light ms-md-4 p-3">Our Schedules</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide3 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-end">
+                        <h5 class="text-uppercase text-white">Learn to be the master of your craft</h5>
+                        <h1 class="text-uppercase display-2 my-3 text-white">We teach the necessary tools needed for
+                            technological evolution
+                        </h1>
+                        <a href="#" class="btn btn-brand p-3">Start your journey here</a>
+                        <a href="#" class="btn btn-outline-light ms-md-4 p-3">Our Schedules</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-12 info-box">
+                            <img src="img/creative-brain.png" alt="Image icon">
+                            <div>
+                                <h5 class="text-capitalize">Road to innovative thinking</h5>
+                                <p>We are an organization that tend to discover, accommodate, develop and sharpen the
+                                    innovative and ingenious minds of people and equip them with techniques on how to
+                                    attain utmost competence in the world of technological evolution.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 info-box mt-3">
+                            <img src="img/technology.png" alt="Image icon">
+                            <div>
+                                <h5 class="text-capitalize">Contribution towards technological advancement</h5>
+                                <p>We at Ringler have a primary goal to contribute towards technological advancement by
+                                    scouting for young and talented innovators and give them a chance to unveil their
+                                    creative ideas.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 info-box mt-3">
+                            <img src="img/united.png" alt="Image icon">
+                            <div>
+                                <h5 class="text-capitalize">Unity</h5>
+                                <p>We at Ringler thrive to maintain good interpersonal relationship with our members and
+                                    strengthen exceptional collaboration amongst ourselves as well as the incoming
+                                    technology advancers for an evolution we will be gratified at.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ms-2 text-center">
+                    <img class="aboutImage img-fluid" src="img/pexels-16.jpg" alt="aboutImage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MILESTONE -->
+    <section id="milestone" class="bg-cover">
+        <div class="container">
+            <div class="row gy-3 text-center justify-content-center">
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">3570</div>
+                    <p class="mb-0">Current Students</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">2000</div>
+                    <p class="mb-0">New Applications</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">2M+</div>
+                    <p class="mb-0">Youtube Subscribers</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="display-4">150</div>
+                    <p class="mb-0">Our Shareholders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h5 class="text-uppercase">Our services</h5>
+                    <h1 class="text-uppercase">SERVICES WE OFFER</h1>
+                    <p>The services we offer cover a lot of ground and they help in shaping and moulding the interests
+                        of young talents by giving them the necessary drive needed for self development and innovations.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/coding.png" alt="Service Icon">
+                        <h5 class="text-capitalize">Web development training</h5>
+                        <p>We offer full training and assessment of students on the tools needed to create and
+                            maintain full functioning websites with outstanding backend configuration for the
+                            client side.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/web-design.png" alt="Service Icon">
+                        <h5 class="text-capitalize">Web design disciplines</h5>
+                        <p>Lots of entrepreneurs need a good website that showcases the services they offer to
+                            intending customers. A nice and attractive front-end design and writing markup of a
+                            website is all that is needed to garner the attention and curiosity of customers. We
+                            offer intensive training in UI and UX designs, Graphic designs as well as Product
+                            designs at our training centers. Projects and assignments will be available to help
+                            improve students apt in creativity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/coding (1).png" alt="Service Icon">
+                        <h5 class="text-capitalize">Developmental Machine Learning</h5>
+                        <p>Artificial Intelligence (AI) seems to be the leading technology that interests lots of
+                            investors, developers and innovators. We at Ringler have taken it upon us to invest in
+                            the essential necessity of Machine Learning to be learnt so as to ensure accuracy and
+                            improvements of new machine learning models.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/report.png" alt="Service Icon">
+                        <h5 class="text-capitalize">Data Analysis</h5>
+                        <p>Extracting actionable, relevant information that assists businesses in making informed
+                            decision is an essential aspect that in tech skill acquisition that cannot be
+                            overlooked. We offer training in data analysis as well as provision of new, young and
+                            talented data analysts to growing companies and businesses to help them reduce the risks
+                            inherent in decision-making.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/scholarship.png" alt="Service Icon">
+                        <h5 class="text-capitalize">Full scholarships and certification</h5>
+                        <p>Scholarship offers to study and be trained in some of our prestigious training centers
+                            are made available to students who show show a great zeal as well creative thinking
+                            towards technology acquisition. Certificates are issued at the end of training to make
+                            known that such students has fully completed his training and is now a certifiable
+                            professionals in their respective fields.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="service-box h-100">
+                        <img src="img/technical-support.png" alt="Service Icon">
+                        <h5 class="text-capitalize">Engineering solution and technical support services</h5>
+                        <p>We at Ringler are also focused on technical services supporting engineering and
+                            engineering software solutions dedicated to transformation and energy sectors. We
+                            provide integrated set of technologies and services to support front-end engineering
+                            phase, detailed engineering and creation of a process data warehouse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h5 class="text-uppercase">Work</h5>
+                    <h1 class="text-uppercase">Our recent works and specialization</h1>
+                    <p>Some of our works can be seen to test authenticity of our claims. Specialization in different
+                        fields of technological skills suited to the interests of our users can also be seen here.</p>
+                </div>
+            </div>
+        </div>
+        <div id="project-slider" class="owl-theme owl-carousel">
+            <div class="project">
+                <img src="img/progImage12.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Web development</h1>
+                        <h6 class="text-capitalize">Back-end using Django</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-17.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Web designing</h1>
+                        <h6 class="text-capitalize">Front-end using CSS frameworks</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/progImage4.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Language learning for kids</h1>
+                        <h6 class="text-capitalize">Generally Python and JavaScript</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-4.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Weekly team meeting</h1>
+                        <h6 class="text-capitalize">Discussion on new technologies and efficient administration</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-10.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Data analytics</h1>
+                        <h6 class="text-capitalize">Coherent decision making and remodelling organization data.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pexels-1.jpg" alt="Project Image">
+                <div class="overlay">
+                    <div class="content">
+                        <h1 class="text-uppercase">Product design</h1>
+                        <h6 class="text-capitalize">Imagining, creating, and iterating products that solve users'
+                            problems</h6>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <!-- TEAM -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h5 class="text-uppercase">Our Team</h5>
+                    <h1 class="text-uppercase">Meet our talented and hardworking team members</h1>
+                    <p>These are the brains behind the success of our prestigious organization. Their creativity,
+                        manpower, zeal and dedication towards the growth of Ringler is what drives us to be among the
+                        top-leading tech companies of today. They also assist in training of young admitted students in
+                        attaining their potentials.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-18(1).jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Robert Franklin</h5>
+                            <p>C.E.O</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-19.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Gustav Romano</h5>
+                            <p>Analytics Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-20.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Cynthia Clarkson</h5>
+                            <p>Product Design Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-7.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Bello Mustapha</h5>
+                            <p>Student Training Administrator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img id="special1" src="img/IMG_20211103_092537.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Usman Hamza Amoto</h5>
+                            <p>Website Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-21.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Margaret James</h5>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-13.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Lily Johnson</h5>
+                            <p>Advertising Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img src="img/pexels-12.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Ethan Jones</h5>
+                            <p>Media Coordinator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="img-wrapper">
+                            <img id="special2" src="img/pexels-6.jpg" alt="">
+                            <div class="overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h5 class="text-capitalize">Sandra Jenkins</h5>
+                            <p>App Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="bg-cover">
+        <div class="container">
+            <div class="owl-carousel owl-theme" id="reviews-slider">
+                <div class="review">
+                    <img src="img/pexels-18(1).jpg" alt="">
+                    <h4>Robert Franklin</h4>
+                    <small>C.E.O</small>
+                    <p class="lead">
+                        Robert is the chief executive officer here at Ringler and he happens to be the highest ranking
+                        person in
+                        the company. He is among the founding fathers of Ringler and also part of the shareholder
+                        delegation.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-19.jpg" alt="">
+                    <h4>Gustav Romano</h4>
+                    <small>Analytics Manager</small>
+                    <p class="lead">
+                        Gustav is the head of the data analytics department ar Ringler. He manages the analytics team in
+                        reviewing data to identify key insights on our users and ways the data can be used to solve
+                        problems.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-20.jpg" alt="">
+                    <h4>Cynthia Clarkson</h4>
+                    <small>Product Design Manager</small>
+                    <p class="lead">
+                        Cynthia is in charge of the product design section. She manages and coordinates design, future
+                        developments, and enhances both new and existing product lines. She is very diligent and a team
+                        player and has shown tremendous contribution towards the organizations' design feasibility and
+                        optimization.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-7.jpg" alt="">
+                    <h4>Bello Mustapha</h4>
+                    <small>Student Training Administrator</small>
+                    <p class="lead">
+                        He is the head of the training section and also the administrator. He handles the activities of
+                        the
+                        Instructors and allocates the necessary resources needed by respective fields to aid student
+                        assimilation and comfortability.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/IMG_20211103_092537.jpg" alt="">
+                    <h4>Usman Hamza Amoto</h4>
+                    <small>Website Developer</small>
+                    <p class="lead">
+                        Amoto is Ringlers' web developer. He creates, maintains and updates the website. He is
+                        responsible
+                        for the site's technical aspects, such as its performance and capacity and how much traffic the
+                        site
+                        can handle. He is a great contributor to the welfare of the organization
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-21.jpg" alt="">
+                    <h4>Margaret James</h4>
+                    <small>Marketing Director</small>
+                    <p class="lead">
+                        Margaret is a professional who manages all the aspects related to production and implementation
+                        of
+                        any of the organizations' campaign when needed. She's responsible for strategizing, analyzing
+                        and
+                        leading her team while making sure everything runs smoothly from start to finish. She has helped
+                        and
+                        improved the popularity of Ringler with her smart skills and creative effort.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-13.jpg" alt="">
+                    <h4>Lily Johnson</h4>
+                    <small>Advertising Manager</small>
+                    <p class="lead">
+                        Lily is an industrious woman who puts in her best to develop, implement, and manage the
+                        company's
+                        advertising strategy, both from a business, sales, and technical perspective. She initiates nd
+                        mNge
+                        discussions and oversee sales with sponsors and agencies.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-12.jpg" alt="">
+                    <h4>Ethan Jones</h4>
+                    <small>Media Coordinator</small>
+                    <p class="lead">
+                        Ethan is a young and talented media coordinator perfectly fit for his job. He researches,
+                        writes,
+                        proofreads and edits all contents, plan and executes all media coverages and advertising
+                        campaigns.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="img/pexels-6.jpg" alt="">
+                    <h4>Sandra Jenkins</h4>
+                    <small>App Developer</small>
+                    <p class="lead">
+                        Sandra is Ringlers' very own application developer. She codes, designs, manages, troubleshoots
+                        and
+                        monitors the organizations' application made to provide end user support. She also handles some
+                        project management tasks while building the application depending on the theme chosen for the
+                        month.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOGS -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h5 class="text-uppercase">OUR BLOG</h5>
+                    <h1 class="text-uppercase">Latest blog posts</h1>
+                    <p>Our recent published articles can be found in our blog posts. Latest news on the tech world can
+                        be found here too. Information ranges from new technologies currently in works as well as the
+                        top paying tech skills people should learn and lot more.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <a href="#" class="tag text-capitalize">Top lucrative technologies</a>
+                        <a href="#"><img src="img/progImage7.jpg" alt="Blog Image"></a>
+                        <a href="#" class="blog-deets">
+                            <small>4 August, 2024</small>
+                            <h4 class="text-capitalize">Lucrative technologies in 2022 and beyond</h4>
+                            <p class="blogText">Hello subscribers, In this post we will discuss the top
+                                earning and
+                                lucrative tech skills in
+                                demand in our current economy and how we can move along with the current trend in
+                                technologies.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <a href="#" class="tag text-capitalize">Top 5 programming languages</a>
+                        <a href="#"><img src="img/progImage11.jpg" alt="Blog Image"></a>
+                        <a href="#" class="blog-deets">
+                            <small>23 July, 2024</small>
+                            <h4 class="text-capitalize">Most used programming languages in 2022</h4>
+                            <p class="blogText">Hello guys, Here we made our research on top 5 most used programming
+                                language as of late and we have finally come to a conclusion. Before we begin the
+                                glorious
+                                mentions, we would want to enlighten you on the need to follow latest trends on tech and
+                                we
+                                are just the right thing you need to put your futures in check.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-post">
+                        <a href="#" class="tag text-capitalize">Best tech skills for kids</a>
+                        <a href="#"><img src="img/progImage5.jpg" alt="Blog Image"></a>
+                        <a href="#" class="blog-deets">
+                            <small>12 June, 2024</small>
+                            <h4 class="text-capitalize">Best and educative technologies your kids should know
+                            </h4>
+                            <p class="blogText">Hello guys, In this post we shall give you reasons why your
+                                child/children
+                                should begin his tech journey as early as possible and also provide the best, educative
+                                and
+                                most useful technologies they should know e.g python.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <a href="#" class="navbar-brand">RINGLER <i class='bx bx-code-block'></i></a>
+                        <p>This is brought to you by the Ringlers' Team with lots of love and dedication</p>
+                        <p>Special thanks to <a href="#special1">Usman Hamza Amoto</a> and <a href="#special2">Sandra
+                                Jenkins</a>
+                            for their steadfastness and dedication in publicizing Ringler.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="bx bxl-facebook"></i></a>
+                            <a href="#"><i class="bx bxl-twitter"></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+                            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                            <a href="#"><i class="bx bxl-youtube"></i></a>
+                            <a href="#"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-0">&copy; Copyright 2022 Ringler. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONTACT MODAL -->
+    <div class="modal fade modal-xl" id="contactModal" aria-hidden="true" data-bs-keyboard="false"
+        data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 bg-cover"
+                                style="background-image: url(img/pexels-11.jpg); min-height: 400px;"></div>
+                            <div class="col-lg-8">
+                                <form action="" class="row p-lg-5 gy-3">
+                                    <div class="col-12">
+                                        <h1>You can connect with us here</h1>
+                                        <p>We can't wait to be of ultimate service to you. Enter your details and tell
+                                            us
+                                            how we can help you.</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" placeholder="Your First name...">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Your Last name...">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="" class="form-label">Email Address</label>
+                                        <input type="text" class="form-control" placeholder="Your Email address...">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Your Message</label>
+                                        <textarea name="Message" id="" cols="30" rows="4" class="form-control"
+                                            placeholder="How can we be of service?"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-secondary" data-bs-dismiss="modal"
+                                            type="button">Cancel</button>
+                                        <button class="btn btn-brand" type="submit">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script type="text/javascript">
+        $(document).ready(function () {
+            $('body').scrollspy({ target: '.navbar' })
+        })
+    </script> -->
+</body>
+
+</html>
